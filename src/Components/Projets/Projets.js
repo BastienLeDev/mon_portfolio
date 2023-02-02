@@ -26,7 +26,7 @@ function Projects() {
                         imgPath={projet1}
                         isBlog={false}
                         title="SportSocial"
-                        description="SportSocial est une application Web réaliser en groupe dans le but de regrouper les pratiquants de sports afin qu'ils participents à des évènements sportifs. SportSocial a une dimension réseau Social afin que les utilisateurs puissent communiquer entre eux."
+                        description="SportSocial est une application Web réaliser en groupe dans le but de regrouper les pratiquants de sports afin qu'ils participents à des évènements sportifs. SportSocial a une dimension réseau Social afin que les utilisateurs puissent communiquer entre eux. La base de données du projet est en SQl, le Back est en Java 8 avec le framework Spring et le front est en Typescript avec le framework Angular, html/css"
                     />
                 </Col>
 
