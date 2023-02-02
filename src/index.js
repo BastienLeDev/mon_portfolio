@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { tsParticles } from "tsparticles";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +12,39 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
+tsParticles.load("tsparticles", {
+  fpsLimit: 60,
+  interactivity: {
+    events: {
+      onHover: {
+        enable: true,
+        mode: "repulse",
+      }
+    },
+    modes: {
+      repulse: {
+        distance: 250,
+      }
+    }
+  },
+  particles: {
+    color: {
+      value: "#282c34"
+    },
+    links: {
+      enable: true,
+      color: "#000",
+      distance: 130,
+    },
+    opacity: {
+      value: { min: 0.2, max: 0.5 },
+    },
+    move: {
+      enable: true
+    }
+  }
+}
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -17,7 +17,7 @@ export default function Accueil2() {
                 marginTop: "20px"
 
             }}>
-                <p >Intérésser par le dévloppement applicatif depuis l'adolescence, je me suis récement reconverti dans cette branche
+                <p >Intéréssé par le dévloppement applicatif depuis l'adolescence, je me suis récemment reconverti dans cette branche
                     en tant que développeur Full-stack. </p>
                 <p>
                     En effet, j'ai pu réaliser une formation de développeur Full-stack notament sur du Java et du TypeScript.
@@ -25,9 +25,9 @@ export default function Accueil2() {
                 <p>Je suis intérésser par le développement Web mais je suis également ouvert au développement des applications mobiles et de bureau.</p>
             </Row>
             <Row style={{
-                marginTop: "80px"
+                marginTop: "70px"
             }}>
-                <Col md={6} className="accueil-about-social">
+                <Col md={5} className="accueil-about-social">
                     <h1> <span className="blue">Contacte</span></h1>
                     <p>
                         Vous pouvez me <span className="blue">contacter </span> via :

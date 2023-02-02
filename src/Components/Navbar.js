@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Images/logo2.png";
-import { tsParticles } from "tsparticles";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -106,38 +105,6 @@ function NavBar() {
     );
 }
 
-tsParticles.load("tsparticles", {
-    fpsLimit: 60,
-    interactivity: {
-        events: {
-            onHover: {
-                enable: true,
-                mode: "repulse",
-            }
-        },
-        modes: {
-            repulse: {
-                distance: 250,
-            }
-        }
-    },
-    particles: {
-        color: {
-            value: "#282c34"
-        },
-        links: {
-            enable: true,
-            color: "#000",
-            distance: 130,
-        },
-        opacity: {
-            value: { min: 0.2, max: 0.5 },
-        },
-        move: {
-            enable: true
-        }
-    }
-}
-);
+
 
 export default NavBar;

@@ -13,9 +13,9 @@ export default function About() {
         <Container fluid className="about-section">
             <Particle />
             <Container>
-                <Row style={{ justifyContent: "center", padding: "10px" }}>
+                <Row style={{ justifyContent: "center", padding: "2 px" }}>
                     <Col
-                        md={7}
+                        md={12}
                         style={{
                             justifyContent: "center",
                             paddingTop: "100px",

@@ -11,8 +11,8 @@ export default function Accueil() {
             <Row style={{
                 marginTop: "100px"
             }}>
-                <Col md={2}></Col>
-                <Col md={5} className="home-header"
+                <Col md={1}></Col>
+                <Col md={6} className="home-header"
 
                     style={{
                         justifyContent: "center",
