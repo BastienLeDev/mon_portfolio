@@ -70,19 +70,6 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
-                        <Nav.Item>
-                            <Nav.Link className="white"
-                                as={Link}
-                                to="/Compétences"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <AiOutlineFundProjectionScreen
-                                    style={{ marginBottom: "2px" }}
-                                />{" "}
-                                Compétences
-                            </Nav.Link>
-                        </Nav.Item>
-
                         <Nav.Item >
                             <Nav.Link className="white"
                                 as={Link}

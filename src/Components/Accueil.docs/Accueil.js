@@ -19,6 +19,7 @@ export default function Accueil() {
                         paddingTop: "120px",
                         paddingBottom: "50px",
                         marginLeft: "",
+                        textAlign: "justify"
 
                     }}>
                     <h1 style={{ paddingBottom: 15 }} className="heading">

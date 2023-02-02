@@ -14,7 +14,9 @@ export default function Accueil2() {
                 <h1> <span className="blue">Présentation</span></h1>
             </Row>
             <Row style={{
-                marginTop: "20px"
+                marginTop: "20px",
+                textAlign: "justify"
+
 
             }}>
                 <p >Intéréssé par le dévloppement applicatif depuis l'adolescence, je me suis récemment reconverti dans cette branche
