@@ -1,25 +1,37 @@
+
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Navbar'
+import About from './Components/About.docs/About';
+import Accueil from './Components/Accueil.docs/Accueil';
+import ScrollToTop from './Components/ScrollToTop';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import "./Style.css";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Router>
+        <NavBar />
+        <ScrollToTop />
+        <Routes>
+
+          <Route path="/" element={<Accueil />} />
+          <Route path="/About" element={<About />} />
+
+
+        </Routes>
+
+
+      </Router>
+    </main>
   );
 }
 
 export default App;
+
