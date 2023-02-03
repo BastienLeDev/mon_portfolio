@@ -16,7 +16,7 @@ import "./Style.css";
 
 function App() {
   return (
-    <main>
+    <main className="font-link">
       <Router>
         <NavBar />
         <ScrollToTop />

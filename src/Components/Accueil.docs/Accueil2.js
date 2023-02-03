@@ -19,45 +19,49 @@ export default function Accueil2() {
 
 
             }}>
-                <p >Intéréssé par le dévloppement applicatif depuis l'adolescence, je me suis récemment reconverti dans cette branche
-                    en tant que développeur Full-stack. </p>
-                <p>
-                    En effet, j'ai pu réaliser une formation de développeur Full-stack notament sur du Java et du TypeScript.
-                </p>
-                <p>Je suis intérésser par le développement Web mais je suis également ouvert au développement des applications mobiles et de bureau.</p>
-            </Row>
-            <Row style={{
-                marginTop: "70px"
-            }}>
-                <Col md={5} className="accueil-about-social">
-                    <h1> <span className="blue">Contacte</span></h1>
+                <Col>
+                    <p >Intéréssé par le dévloppement applicatif depuis l'adolescence, je me suis récemment reconverti dans cette branche
+                        en tant que développeur Full-stack. </p>
                     <p>
-                        Vous pouvez me <span className="blue">contacter </span> via :
+                        En effet, j'ai pu réaliser une formation de développeur Full-stack notament sur du Java et du TypeScript.
                     </p>
-                    <ul className="accueil-about-social-links">
-                        <li className="social-icons">
-                            <a
-                                href="https://github.com/BastienLeDev"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                                <AiFillGithub />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.linkedin.com/in/bastien-gauthiero-90a20b202/"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                                <FaLinkedinIn />
-                            </a>
-                        </li>
-                    </ul>
+                    <p>Je suis intérésser par le développement Web mais je suis également ouvert au développement des applications mobiles et de bureau.</p>
                 </Col>
             </Row>
+            <Container fluid>
+                <Row style={{
+                    marginTop: "70px"
+                }}>
+                    <Col md={5} className="accueil-about-social">
+                        <h1> <span className="blue">Contacts</span></h1>
+                        <p>
+                            Vous pouvez me <span className="blue">contacter </span> via :
+                        </p>
+                        <ul className="accueil-about-social-links">
+                            <li className="social-icons">
+                                <a
+                                    href="https://github.com/BastienLeDev"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <AiFillGithub />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://www.linkedin.com/in/bastien-gauthiero-90a20b202/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <FaLinkedinIn />
+                                </a>
+                            </li>
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
 
 

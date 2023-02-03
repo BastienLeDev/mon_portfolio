@@ -24,6 +24,7 @@ tsParticles.load("tsparticles", {
     modes: {
       repulse: {
         distance: 250,
+        speed: 0.5
       }
     }
   },
@@ -34,10 +35,10 @@ tsParticles.load("tsparticles", {
     links: {
       enable: true,
       color: "#000",
-      distance: 130,
+      distance: 180,
     },
     opacity: {
-      value: { min: 0.2, max: 0.5 },
+      value: { min: 0.3, max: 0.6 },
     },
     move: {
       enable: true
