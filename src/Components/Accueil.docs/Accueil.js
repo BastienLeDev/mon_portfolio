@@ -13,7 +13,7 @@ export default function Accueil() {
                     marginTop: "100px"
                 }}>
                     <Col md={1}></Col>
-                    <Col md={5} className="home-header"
+                    <Col md={6} className="home-header"
 
                         style={{
                             justifyContent: "center",

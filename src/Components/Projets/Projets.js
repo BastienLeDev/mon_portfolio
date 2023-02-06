@@ -17,7 +17,7 @@ function Projects() {
                     Mes <strong className="blue"> projets </strong>
                 </h1>
                 <p style={{ color: "white" }}>
-                    Ci-dessous, vous trouverez les projets (communs et individuels) auxquelles j'ai travaillé dessus :
+                    Ci-dessous, vous trouverez les projets (communs et individuels) sur lesquelles j'ai travaillé :
                 </p>
             </Row>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -26,7 +26,7 @@ function Projects() {
                         imgPath={projet1}
                         isBlog={false}
                         title="SportSocial"
-                        description="SportSocial est une application Web réaliser en groupe dans le but de regrouper les pratiquants de sports afin qu'ils participents à des évènements sportifs. SportSocial a une dimension réseau Social afin que les utilisateurs puissent communiquer entre eux. La base de données du projet est en SQl, le Back est en Java 8 avec le framework Spring et le front est en Typescript avec le framework Angular, html/css"
+                        description="SportSocial est une application Web réalisée en groupe dans le but de regrouper les pratiquants de sports afin qu'ils participents à des évènements sportifs. SportSocial a une dimension réseau Social afin que les utilisateurs puissent communiquer entre eux. La base de données du projet est en SQl, le Back est en Java 8 avec le framework Spring et le front est en Typescript avec le framework Angular, html/css."
                     />
                 </Col>
 
@@ -35,7 +35,7 @@ function Projects() {
                         imgPath={projet2}
                         isBlog={false}
                         title="Portfolio"
-                        description="Le portfolio sur lequel vous ête actuellement est également un projet personnel qui visait à me faire découvrire le framework React de Javascript."
+                        description="Le portfolio sur lequel vous ête actuellement est un projet personnel qui visait à me faire découvrire le framework React de Javascript."
                     />
                 </Col>
             </Row>

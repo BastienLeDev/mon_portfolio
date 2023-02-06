@@ -23,9 +23,9 @@ export default function About() {
 
                         }}
                     >
-                        <h1>A propos de moi</h1>
-                        <p> Je suis développeur <span className="blue"> full-stack </span> junior en reconvertion professionelle. Je suis diplômé en ingénierie Textile & Fibres.</p>
-                        <p> Passioné du numérique, j'ai décider de me reconvertir dans le <span className="blue">développement applicatif </span> afin de développer mes compétences dans ce domaine.</p>
+                        <h1 style={{ marginBottom: "30px" }}>A propos de moi</h1>
+                        <p> Diplômé en ingénierie Textile & Fibres, je me suis reconverti dans le <span className="blue">développement applicatif</span>.</p>
+                        <p> Passioné du numérique, j'ai décider de me reconvertir professionellement dans le <span className="blue">DEV </span> afin de développer mes compétences dans ce domaine.</p>
                         <p> En dehors de la programmation, j'aime : </p>
                         <ul>
                             <li><ImPointRight /> Faire du sport</li>

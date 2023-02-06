@@ -296,7 +296,7 @@ body {
 }
 
 .project-card-view:hover {
-    transform: scale(1.02) !important;
+    transform: scale(1.07) !important;
     overflow: hidden !important;
     box-shadow: 0px 1px 5px 6px rgba(32, 95, 118, 0.972) !important;
 }
@@ -317,4 +317,8 @@ body {
 
 .font-link {
     font-family: 'Unbounded', cursive;
+}
+
+.game {
+    cursor: url(./Images/icons8-ours-64.png), auto;
 }
