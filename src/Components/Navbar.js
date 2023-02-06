@@ -3,10 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Images/logo2.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { TfiGame } from "react-icons/tfi";
 import {
     AiFillStar,
     AiOutlineHome,
@@ -80,6 +78,20 @@ function NavBar() {
                                     style={{ marginBottom: "2px" }}
                                 />{" "}
                                 Projets
+                            </Nav.Link>
+                        </Nav.Item>
+
+
+                        <Nav.Item >
+                            <Nav.Link className="white"
+                                as={Link}
+                                to="/Jeux"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <TfiGame
+                                    style={{ marginBottom: "2px" }}
+                                />{" "}
+                                Jeux
                             </Nav.Link>
                         </Nav.Item>
 

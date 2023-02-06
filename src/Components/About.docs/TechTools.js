@@ -12,7 +12,7 @@ export default function TechTools() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiMysql />
-
+                <p className="tech-icons-text" >Workbench</p>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiVisualstudiocode />

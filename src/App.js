@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './Components/Navbar'
 import About from './Components/About.docs/About';
 import Projects from './Components/Projets/Projets';
+import Jeux from './Components/Jeux/jeux';
 import Accueil from './Components/Accueil.docs/Accueil';
 import ScrollToTop from './Components/ScrollToTop';
 import {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Accueil />} />
           <Route path="/About" element={<About />} />
           <Route path="/Projets" element={<Projects />} />
+          <Route path="/Jeux" element={<Jeux />} />
 
 
 

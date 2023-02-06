@@ -25,7 +25,7 @@ export default function Accueil2() {
                     <p>
                         En effet, j'ai pu réaliser une formation de développeur Full-stack notament sur du Java et du TypeScript.
                     </p>
-                    <p>Je suis intérésser par le développement Web mais je suis également ouvert au développement des applications mobiles et de bureau.</p>
+                    <p>Je suis intéréssé par le développement Web mais je suis également ouvert au développement des applications mobiles et de bureau.</p>
                 </Col>
             </Row>
             <Container fluid>
