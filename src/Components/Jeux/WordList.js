@@ -10,6 +10,8 @@ const words = [
     'sql',
     'mysql',
     'sportsocial',
+    'sport',
+    'jeux-videos',
     'angular',
     'spring',
     'java',
