@@ -138,21 +138,37 @@ class jeux extends Component {
 
         return (
             <div>
-                <Container>
+                <Container style={{
+
+                    marginTop: "",
+                    marginLeft: ""
+                }}>
                     <Row>
-                        <Col md={4}>
+                        <Col md={2}>
                         </Col>
 
+
+                        <Col md={6}>
+                            <PenduSchema currentTry={this.state.currentTry} />
+                            <br />
+                        </Col>
+                        <Col md={4} style={{
+
+                            marginTop: "100px",
+                            marginLeft: ""
+                        }}>
+                            <h1 style={{ textAlign: "center" }}>Jeu du <span className='blue'>pendu</span></h1>
+                            <br></br>
+                            <p style={{ textAlign: "left", justifyContent: "center" }}>Vous avez 12 essais pour trouver le bon mot. Ce jeu du pendu contient uniquement des mots du portfolio.</p>
+                            <ul style={{ textAlign: "left", justifyContent: "center" }}>
+                                <li>Ne pas utiliser de majuscules ! </li>
+                                <li>Lettre correcte :  +1 point</li>
+                                <li>Lettre incorrecte : -1 point</li>
+                                <li>Plusieur fois une lettre incorrecte : -2 points</li>
+                                <li> 12 essais</li>
+                            </ul>
+                        </Col>
                     </Row>
-
-                    <PenduSchema style={{
-
-                        marginTop: "120px",
-                        marginLeft: "",
-
-
-                    }} currentTry={this.state.currentTry} />
-                    <br />
                 </Container>
                 <Container>
                     <Row>
