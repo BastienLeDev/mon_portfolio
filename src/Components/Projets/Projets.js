@@ -35,7 +35,7 @@ function Projects() {
                         imgPath={projet2}
                         isBlog={false}
                         title="Portfolio"
-                        description="Le portfolio sur lequel vous ête actuellement est un projet personnel qui visait à me faire découvrire le framework React de Javascript."
+                        description="Le portfolio sur lequel vous êtes actuellement est un projet personnel qui visait à me faire découvrire le framework React de Javascript."
                     />
                 </Col>
             </Row>

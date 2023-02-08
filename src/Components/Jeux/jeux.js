@@ -164,7 +164,7 @@ class jeux extends Component {
                                 <li>Ne pas utiliser de majuscules ! </li>
                                 <li>Lettre correcte :  +1 point</li>
                                 <li>Lettre incorrecte : -1 point</li>
-                                <li>Plusieur fois une lettre incorrecte : -2 points</li>
+                                <li>Plusieurs fois une lettre incorrecte : -2 points</li>
                                 <li> 12 essais</li>
                             </ul>
                         </Col>
