@@ -121,6 +121,9 @@ class jeux extends Component {
         return test;
     }
 
+
+
+
     isWon() {
         let test = this.test;
         let count = 0;
@@ -162,7 +165,7 @@ class jeux extends Component {
                             <p style={{ textAlign: "left", justifyContent: "center" }}>Vous avez 12 essais pour trouver le bon mot. Ce jeu du pendu contient uniquement des mots du portfolio.</p>
                             <ul style={{ textAlign: "left", justifyContent: "center" }}>
                                 <li>Ne pas utiliser de majuscules ! </li>
-                                <li>Lettre correcte :  +1 point</li>
+                                <li>Lettre correcte :  +2 point</li>
                                 <li>Lettre incorrecte : -1 point</li>
                                 <li>Plusieurs fois une lettre incorrecte : -2 points</li>
                                 <li> 12 essais</li>
@@ -240,6 +243,7 @@ class jeux extends Component {
             tryedLetters: [],
             score: 0
         })
+
 
     }
 

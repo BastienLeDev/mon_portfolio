@@ -91,7 +91,7 @@ function NavBar() {
                                 <TfiGame
                                     style={{ marginBottom: "2px" }}
                                 />{" "}
-                                Jeux
+                                Jeu
                             </Nav.Link>
                         </Nav.Item>
 

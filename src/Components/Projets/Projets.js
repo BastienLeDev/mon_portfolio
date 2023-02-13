@@ -17,7 +17,7 @@ function Projects() {
                     Mes <strong className="blue"> projets </strong>
                 </h1>
                 <p style={{ color: "white" }}>
-                    Ci-dessous, vous trouverez les projets (communs et individuels) sur lesquelles j'ai travaillé :
+                    Ci-dessous, vous trouverez les projets (communs et individuels) sur lesquels j'ai travaillés :
                 </p>
             </Row>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
