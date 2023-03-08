@@ -7,7 +7,7 @@ function Type() {
             options={{
                 strings: [
                     "Developpeur Full-stack",
-                    "Ingénieur Textile & Fibres",
+                    "Ingénieur spécialisé Textile & Fibres",
                     "Passionné de nouvelles technologies",
                 ],
                 autoStart: true,

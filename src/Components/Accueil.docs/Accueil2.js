@@ -20,7 +20,7 @@ export default function Accueil2() {
 
             }}>
                 <Col>
-                    <p >Intéréssé par le développement applicatif depuis l'adolescence, je me suis récemment reconverti dans cette branche
+                    <p >Intéréssé par le développement applicatif, je me suis reconverti dans cette branche
                         en tant que développeur Full-stack. </p>
                     <p>
                         En effet, j'ai pu réaliser une formation de développeur Full-stack notament sur du Java et du TypeScript.
